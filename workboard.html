@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="workboard.css">
+    <link rel="stylesheet" href="workboard.js">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <strong class="heading-text">Work Board</strong>
+        </div>
+
+        <div class="board">
+    <div class = "row" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+        <strong class="row1">TO DO</strong> 
+        <div class="task-button-block">
+            <button id="task-button">
+                Create new task
+            </span>
+        </div>
+        <div class="task" id="task1" draggable="true" ondragstart="drag(event)">
+            <span>Task 1</span>
+        </div>
+        <div class="task" id="task2" draggable="true" ondragstart="drag(event)">
+            <span>Task 2</span>
+        </div>
+        <div class="task" id="task3" draggable="true" ondragstart="drag(event)">
+            <span>Task 3</span>
+        </div>
+        <div class="task" id="task4" draggable="true" ondragstart="drag(event)">
+            <span>Task 4</span>
+        </div>
+        <div class="task" id="task5" draggable="true" ondragstart="drag(event)">
+            <span>Task 5</span>
+        </div>
+        <div class="task" id="task6" draggable="true" ondragstart="drag(event)">
+            <span>Task 6</span>
+        </div>
+    </div>
+    <div class="row" id="inprogress" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <strong class="row2">IN PROGRESS</strong>
+    </div>
+    <div class = "row" id="completed" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <strong class="row3">COMPLETED</strong>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
