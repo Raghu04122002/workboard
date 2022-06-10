@@ -56,7 +56,7 @@
   .create-new-task-block {
     display: none;
     /* display: flex; */
-    background: #ffaf00;
+    background: green;
     width: 64.4%;
     flex-direction: column;
   }
